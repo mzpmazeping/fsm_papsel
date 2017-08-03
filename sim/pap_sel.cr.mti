@@ -1,0 +1,17 @@
+E:/altera/fsm_papsel_exercise/tb/tb_fsm_papsel.v {1 {vlog -work work -novopt -stats=none E:/altera/fsm_papsel_exercise/tb/tb_fsm_papsel.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module tb_fsm_papsel
+
+Top level modules:
+	tb_fsm_papsel
+
+} {} {}} E:/altera/fsm_papsel_exercise/src/fsm_papsel.v {2 {vlog -work work -novopt -stats=none E:/altera/fsm_papsel_exercise/src/fsm_papsel.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module fsm_papsel
+** Warning: E:/altera/fsm_papsel_exercise/src/fsm_papsel.v(187): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	fsm_papsel
+
+} {} {}}

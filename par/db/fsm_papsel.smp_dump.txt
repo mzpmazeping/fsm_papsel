@@ -1,0 +1,10 @@
+
+State Machine - |fsm_papsel|current_stat
+Name current_stat.CHECKOUT current_stat.M_5 current_stat.M_4 current_stat.M_3 current_stat.M_2 current_stat.M_1 current_stat.IDLE 
+current_stat.IDLE 0 0 0 0 0 0 0 
+current_stat.M_1 0 0 0 0 0 1 1 
+current_stat.M_2 0 0 0 0 1 0 1 
+current_stat.M_3 0 0 0 1 0 0 1 
+current_stat.M_4 0 0 1 0 0 0 1 
+current_stat.M_5 0 1 0 0 0 0 1 
+current_stat.CHECKOUT 1 0 0 0 0 0 1 

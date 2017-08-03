@@ -1,0 +1,27 @@
+|fsm_papsel
+clk => current_stat~1.DATAIN
+rstn => current_stat~3.DATAIN
+m_in[0] => Equal0.IN0
+m_in[0] => Equal1.IN2
+m_in[0] => Equal2.IN1
+m_in[1] => Equal0.IN2
+m_in[1] => Equal1.IN0
+m_in[1] => Equal2.IN2
+m_in[2] => Equal0.IN1
+m_in[2] => Equal1.IN1
+m_in[2] => Equal2.IN0
+m_in_vld => next_stat.OUTPUTSELECT
+m_in_vld => next_stat.OUTPUTSELECT
+m_in_vld => next_stat.OUTPUTSELECT
+m_in_vld => next_stat.OUTPUTSELECT
+m_in_vld => next_stat.OUTPUTSELECT
+m_in_vld => next_stat.OUTPUTSELECT
+m_in_vld => next_stat.OUTPUTSELECT
+m_in_vld => money[2].IN1
+m_in_vld => money[2].IN1
+qout <= qout.DB_MAX_OUTPUT_PORT_TYPE
+check[0] <= check.DB_MAX_OUTPUT_PORT_TYPE
+check[1] <= check.DB_MAX_OUTPUT_PORT_TYPE
+check[2] <= check.DB_MAX_OUTPUT_PORT_TYPE
+
+

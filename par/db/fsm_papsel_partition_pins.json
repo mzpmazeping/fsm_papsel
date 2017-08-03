@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "qout",
+					"strict" : false
+				},
+				{
+					"name" : "check[0]",
+					"strict" : false
+				},
+				{
+					"name" : "check[1]",
+					"strict" : false
+				},
+				{
+					"name" : "check[2]",
+					"strict" : false
+				},
+				{
+					"name" : "m_in_vld",
+					"strict" : false
+				},
+				{
+					"name" : "m_in[0]",
+					"strict" : false
+				},
+				{
+					"name" : "m_in[2]",
+					"strict" : false
+				},
+				{
+					"name" : "m_in[1]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rstn",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

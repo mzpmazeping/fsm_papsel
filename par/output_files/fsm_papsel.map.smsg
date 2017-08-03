@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at fsm_papsel.v(56): always construct contains both blocking and non-blocking assignments File: E:/altera/fsm_papsel_exercise/src/fsm_papsel.v Line: 56
